@@ -1,5 +1,7 @@
 //Firebase service
 
+//YES with the API Key! ^^
+
 //import and initialize Firebase
 import firebase from 'firebase';
 import "firebase/auth";
