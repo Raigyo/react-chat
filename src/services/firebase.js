@@ -15,6 +15,7 @@ const config = {
     authDomain: "chatty-a6893.firebaseapp.com",
     //databaseURL: "ADD-YOUR-DETAILS-HERE"
     databaseURL: "https://chatty-a6893.firebaseio.com"
+    //Callback url: https://chatty-a6893.firebaseapp.com/__/auth/handler
 };
 firebase.initializeApp(config);
 //export the authentication and database modules

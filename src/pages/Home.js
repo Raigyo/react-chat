@@ -1,3 +1,5 @@
+//Home page
+
 import React, { Component } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -15,7 +17,7 @@ export default class HomePage extends Component {
               <p className="lead">A great place to share your thoughts with friends</p>
               <div className="mt-4">
                 <Link className="btn btn-primary px-5 mr-3" to="/signup">Create New Account</Link>
-                <Link className="btn px-5" to="/login">Login to Your Account</Link>
+                <Link className="btn btn-success px-5" to="/login">Login to Your Account</Link>
               </div>
             </div>
           </div>

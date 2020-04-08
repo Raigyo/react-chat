@@ -13,6 +13,7 @@ import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import { auth } from "./services/firebase";
 import './styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 /*Our app has public routes (accessible without authentication) 
 and a private route (accessible only with authentication). 

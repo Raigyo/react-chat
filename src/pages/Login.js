@@ -3,9 +3,11 @@
 /*The login page is identical to the signup page. 
 The only difference is we’ll be using the signin method from the helpers we created earlier.*/
 
+//See comments on SignUp.js
+
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { signin, signInWithGoogle, signInWithGitHub } from "../helpers/auth";
+import { signin, signInWithGoogle, signInWithGitHub, signInWithFacebook } from "../helpers/auth";
 
 export default class Login extends Component {
   constructor() {
@@ -19,13 +21,14 @@ export default class Login extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
     this.googleSignIn = this.googleSignIn.bind(this);
     this.githubSignIn = this.githubSignIn.bind(this);
+    this.facebookSignIn = this.facebookSignIn.bind(this);
   }
 
   handleChange(event) {
     this.setState({
       [event.target.name]: event.target.value
     });
-  }
+  }//\handleChange
 
   async handleSubmit(event) {
     event.preventDefault();
@@ -35,23 +38,34 @@ export default class Login extends Component {
     } catch (error) {
       this.setState({ error: error.message });
     }
-  }
+  }//\handleSubmit
 
+  //Login with Google
   async googleSignIn() {
     try {
       await signInWithGoogle();
     } catch (error) {
       this.setState({ error: error.message });
     }
-  }
+  }//\googleSignI
 
+  //Login with GitHub
   async githubSignIn() {
     try {
       await signInWithGitHub();
     } catch (error) {
       this.setState({ error: error.message });
     }
-  }
+  }//\githubSignI
+
+  //Login with Facebook
+  async facebookSignIn() {
+    try {
+      await signInWithFacebook();
+    } catch (error) {
+      this.setState({ error: error.message });
+    }
+  }//\facebookSignIn
 
   render() {
     return (
@@ -100,8 +114,11 @@ export default class Login extends Component {
           <button className="btn btn-danger mr-2" type="button" onClick={this.googleSignIn}>
             Sign in with Google
           </button>
-          <button className="btn btn-secondary" type="button" onClick={this.githubSignIn}>
+          <button className="btn btn-secondary mr-2" type="button" onClick={this.githubSignIn}>
             Sign in with GitHub
+          </button>
+          <button className="btn btn-primary mr-2" type="button" onClick={this.facebookSignIn}>
+            Sign in with Facebook
           </button>
           <hr />
           <p>
@@ -110,6 +127,6 @@ export default class Login extends Component {
         </form>
 
       </div>
-    );
-  }
-}
+    );//\return
+  }//\render
+}//\class Login

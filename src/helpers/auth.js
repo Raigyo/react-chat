@@ -29,6 +29,12 @@ export function signInWithGitHub() {
 return auth().signInWithPopup(provider);
 }
 
+//signin with Facebook
+export function signInWithFacebook() {
+    const provider = new auth.FacebookAuthProvider();
+return auth().signInWithPopup(provider);
+}
+
 //Logout
 export function logout() {
     return auth().signOut();

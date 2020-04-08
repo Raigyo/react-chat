@@ -1,3 +1,5 @@
+//Firebase DB component (helper)
+
 import { db } from "../services/firebase";
 
 export function readChats() {
