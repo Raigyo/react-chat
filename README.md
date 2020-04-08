@@ -8,10 +8,15 @@ See the **demo** on [Github page](https://raigyo.github.io/react-chat/).
 
 ![React + Firebase logos](readme-img/reactfirebase.png)
 
+**Homepage**
 
 ![Capture: Home](readme-img/capture-home.PNG)
 
+**Sign Up**
+
 ![Capture: Login](readme-img/capture-login.PNG)
+
+**Chat**
 
 ![Capture: Home](readme-img/capture-chat1.PNG)
 
@@ -24,7 +29,9 @@ See the **demo** on [Github page](https://raigyo.github.io/react-chat/).
 - /services: third-party services that we’re using (Firebase)
 - App.js: the root component
 
-![Capture: Auth Github](readme-img/capture-auth.PNG)![Capture: Auth FB](readme-img/capture-login-fb.PNG)![Capture: Auth Google](readme-img/capture-login-google.PNG)
+**Authentication**
+
+![Capture: Auth Github](readme-img/capture-auth.PNG) ![Capture: Auth FB](readme-img/capture-login-fb.PNG) ![Capture: Auth Google](readme-img/capture-login-google.PNG)
 
 ## How to use
 
