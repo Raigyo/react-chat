@@ -24,7 +24,7 @@ we’ll create higher-order components (HOCs) for both types of routes.*/
 function PrivateRoute({ component: Component, authenticated, ...rest }) {
   return (
     //wrap a <Route>
-    <Route
+    <BrowserRouter
       {...rest}//spread attribute/operator: to get the remaining parameters passed from the router
       //pass props from the router to the <Route>
       //render the component depending on the authenticated state
@@ -43,7 +43,7 @@ function PrivateRoute({ component: Component, authenticated, ...rest }) {
 //Public route
 function PublicRoute({ component: Component, authenticated, ...rest }) {
   return (
-    <Route
+    <BrowserRouter
       {...rest}
       render={(props) => authenticated === false
         ? <Component {...props} />
