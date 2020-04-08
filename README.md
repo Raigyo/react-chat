@@ -1,4 +1,4 @@
-# Real-Time Chat App with React and Google Firebase - Connection with Email, Github, Facebook or Google (WIP)
+# Real-Time Chat App with React and Google Firebase - Connection with Email, Github, Facebook or Google
 
 *April 2020*
 
