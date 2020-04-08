@@ -10,12 +10,12 @@ import "firebase/database";
 const config = {
     //See config file provided in Firebase project
     //apiKey: "ADD-YOUR-DETAILS-HERE",
-    apiKey: "AIzaSyDVNnhEa55EhJl17J7D8TQHUqgHv_G-PE8",
+    apiKey: "AIzaSyAHZ5MCO_ZUluwh5fO7qrhJ0dIzP44SqHw",
     //authDomain: "ADD-YOUR-DETAILS-HERE",
-    authDomain: "chatty-a6893.firebaseapp.com",
+    authDomain: "chatty-online.firebaseapp.com",
     //databaseURL: "ADD-YOUR-DETAILS-HERE"
-    databaseURL: "https://chatty-a6893.firebaseio.com"
-    //Callback url: https://chatty-a6893.firebaseapp.com/__/auth/handler
+    databaseURL: "https://chatty-online.firebaseio.com",
+    //Callback url: https://chatty-online.firebaseapp.com/__/auth/handler
 };
 firebase.initializeApp(config);
 //export the authentication and database modules
