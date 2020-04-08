@@ -31,7 +31,7 @@ See the **demo** on [Github page](https://raigyo.github.io/react-chat/).
 
 **Authentication**
 
-![Capture: Auth Github](readme-img/capture-auth.PNG) ![Capture: Auth FB](readme-img/capture-login-fb.PNG) ![Capture: Auth Google](readme-img/capture-login-google.PNG)
+![Capture: Auth Github](readme-img/capture-auth.PNG)![Capture: Auth Google](readme-img/capture-login-google.PNG)![Capture: Auth FB](readme-img/capture-login-fb.PNG) 
 
 ## How to use
 
