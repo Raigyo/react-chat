@@ -4,7 +4,7 @@
 
 > 🔨 Chat made with React using Google Firebase as DB to store messages and for the connection (sign up / log in) . From CSS Tricks '[Building a Real-Time Chat App with React and Firebase](https://css-tricks.com/building-a-real-time-chat-app-with-react-and-firebase/)'. 
 
-See the **demo** on [Github page](https://raigyo.github.io/react-chat/).
+See the **demo** on [Heroku](https://chatty-react-firebase.herokuapp.com/).
 
 ![React + Firebase logos](readme-img/reactfirebase.png)
 
@@ -44,7 +44,7 @@ See the **demo** on [Github page](https://raigyo.github.io/react-chat/).
 
 ### Online
 
-See the **demo** on [Github page](https://raigyo.github.io/react-chat/)
+See the **demo** on [Heroku](https://chatty-react-firebase.herokuapp.com/).
 
 ![Capture: Firebase](readme-img/capture-firebase.PNG)
 
@@ -57,4 +57,4 @@ See the **demo** on [Github page](https://raigyo.github.io/react-chat/)
 - [Github: Register a new OAuth application](https://github.com/settings/developers)
 - [Facebook for developers](https://developers.facebook.com/)
 - [Firebase: Allow creation of multiple accounts with the same email address ](https://stackoverflow.com/questions/37947944/authentication-using-facebook-at-first-and-then-google-causes-an-error-in-fireba)
-- [How to deploy React App to GitHub Pages](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
+- [Deploy Your React App To Heroku](https://dev.to/smithmanny/deploy-your-react-app-to-heroku-2b6f)
