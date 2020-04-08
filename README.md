@@ -37,7 +37,7 @@ See the **demo** on [Github page](https://raigyo.github.io/react-chat/).
 
 ### Local
 
-- Clone the [local-version branch](#)
+- Clone the [local-version branch](https://github.com/Raigyo/react-chat/tree/local-version)
 - Update node_modules: `npm install`
 - To run: `npm start`
 - Open the app using [http://localhost:3000/](http://localhost:3000/)
