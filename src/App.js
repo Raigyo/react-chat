@@ -84,7 +84,7 @@ class App extends Component {
   //rendering using HOCs
   render() {
     return this.state.loading === true ? <h2>Loading...</h2> : (
-      <Router>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={Home} />
           <PrivateRoute 
@@ -103,7 +103,7 @@ class App extends Component {
             component={Login}>
           </PublicRoute>
         </Switch>
-      </Router>
+      </BrowserRouter>
     );//\return
   }//\render
 }//\class App 
