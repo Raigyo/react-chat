@@ -12,7 +12,7 @@ const config = {
     //apiKey: "ADD-YOUR-DETAILS-HERE",
     apiKey: "AIzaSyAHZ5MCO_ZUluwh5fO7qrhJ0dIzP44SqHw",
     //authDomain: "ADD-YOUR-DETAILS-HERE",
-    //authDomain: "chatty-online.firebaseapp.com",
+    authDomain: "chatty-online.firebaseapp.com",
     //databaseURL: "ADD-YOUR-DETAILS-HERE"
     databaseURL: "https://chatty-online.firebaseio.com",
     //Callback url: https://chatty-online.firebaseapp.com/__/auth/handler
